@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#home" class="k">Home</a></li>
+                <li><a href="#skills" class="k">Skills</a></li>
+                <li><a href="#projects" class="k">Projects</a></li>
+                <li><a href="#contact" class="k">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+        <img src="background.jpg">
+            <h1>I'm KEERTHANA S</h1>
+            <h2>Full Stack Developer</h2><br><br>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/keerthana-s-20239a2a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="fab fa-linkedin">LinkedIn</a>
+                &nbsp;&nbsp;
+                <a href="https://github.com/keerthanas11" target="_blank" class="fab fa-github">GitHub</a>
+                &nbsp;&nbsp;
+                <a href="https://instagram.com" target="_blank" class="fab fa-instagram">Instagram</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="skill-bar" style="width: 90%;"></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="skill-bar" style="width: 80%;"></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="skill-bar" style="width: 75%;"></div>
+            </div>
+            <div class="skill">
+                <p>Java</p>
+                <div class="skill-bar" style="width: 70%;"></div>
+            </div>
+            <div class="skill">
+                <p>Python</p>
+                <div class="skill-bar" style="width: 65%;"></div>
+            </div>
+           
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Restuarant Website[ROYAL RASOI]</h3>
+                <p>A stunning restaurant website frontend featuring an enticing menu, 
+                    vibrant visuals, and smooth navigation. The homepage showcases the restaurant's ambiance,
+                    while the "About" and "Contact Us" pages provide detailed information and easy ways to connect.</p>
+                <a href="https://github.com/keerthanas11/Restuarant-website">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Travel and Tourism Management System</h3>
+                <p>
+                    A comprehensive travel and tourism management system allowing users to browse and book travel
+                     packages online. The platform includes secure login and registration pages with robust
+                      authentication to ensure a personalized and safe user experience</p>
+                <a href="#">View Project</a>
+            </div>
+           
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="index.html" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

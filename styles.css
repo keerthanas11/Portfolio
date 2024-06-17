@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #fff;
+}
+*{
+    
+        font-family: 'Lobster', cursive;
+    
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    height:50px;
+}
+.k{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    transition: opacity 1s ease-in-out;
+}
+
+section h1, section h2 {
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.skill {
+    margin: 20px 0;
+}
+
+.skill p {
+    margin: 0;
+}
+
+.skill-bar {
+    height: 25px;
+    background: #00bcd4;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+    background: #1e1e1e;
+    color: #fff;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00bcd4;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0097a7;
+}
+h1 {
+    font-size: 3em; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Transform text to uppercase */
+    letter-spacing: 2px; /* Add some letter spacing */
+    color: #f7f422cd; /* Change color */
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em; /* Increase font size */
+    font-weight: lighter; /* Make the text lighter */
+    letter-spacing: 1px; /* Add some letter spacing */
+    color: #00bcd4; /* Change color */
+    margin: 10px 0;
+}
+img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin: 0 auto; 
+}
